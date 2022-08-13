@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Switflow</title>
       </Head>
-        <Nav/>
+      <Nav/>
       <main className="h-full">
           <MainPage/>
       </main>
