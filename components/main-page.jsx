@@ -2,7 +2,7 @@ import Piece from "../pages/piece";
 
 export default function MainPage() {
   return (
-    <div>
+    <div className="h-full">
       <Piece/>
     </div>
   )

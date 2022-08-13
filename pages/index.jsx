@@ -4,12 +4,12 @@ import Nav from "../components/nav";
 
 export default function Home() {
   return (
-    <div className="body">
+    <div className="body h-full">
       <Head>
         <title>Switflow</title>
       </Head>
         <Nav/>
-      <main>
+      <main className="h-full">
           <MainPage/>
       </main>
       <footer>

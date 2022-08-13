@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  height: 100%;
+}
+
+#_next {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
 .body {
-    min-width: 320px;
-    overflow: auto;
+  min-width: 320px;
 }
